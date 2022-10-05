@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bi-arrow-right{
+    margin-left: 10px;
+    color: rgb(14, 125, 223);
+}
+.border1{
+    border: 1px solid;
+}
+.image-cont{
+    overflow: hidden;
+}
+.image-cont2{
+    overflow: hidden;
+}
+.image-cont img{
+    transition: 0.5s all ease-in-out;
+}
+.image-cont:hover img{
+    transform: scale(1.1);
+}
+.imag1{
+    height: 650px;
+}
